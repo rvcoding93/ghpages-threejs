@@ -1,23 +1,18 @@
 {
-  "name": "threejsportfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "capstoneportfolio",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+    
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rvcoding93/threejsPortfolio.git"
+  "devDependencies": {
+    "vite": "^2.9.9"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rvcoding93/threejsPortfolio/issues"
-  },
-  "homepage": "https://github.com/rvcoding93/threejsPortfolio#readme",
   "dependencies": {
-    "three": "^0.141.0"
+    "gh-pages": "^4.0.0"
   }
 }
